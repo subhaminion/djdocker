@@ -1,0 +1,85 @@
+{
+	"info": {
+		"name": "Goibibo",
+		"_postman_id": "0792c6a2-9327-f75b-60eb-7964fb012c48",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/init_csv/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://127.0.0.1:8000/init_csv/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"init_csv",
+						""
+					]
+				},
+				"description": "This endpoint for initializing the CSV values to db."
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/one/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://127.0.0.1:8000/one/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"one",
+						""
+					]
+				},
+				"description": "A Valid response"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/two/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://127.0.0.1:8000/two/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"two",
+						""
+					]
+				},
+				"description": "A invalid response"
+			},
+			"response": []
+		}
+	]
+}
